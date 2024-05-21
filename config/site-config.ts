@@ -1,11 +1,11 @@
 export type GridItemLayout =
-  | "1x2"
+  // | "1x2"
   | "2x1"
   | "2x2"
-  | "2x4" | "2x6" | "2x12"
-  | "4x2"
+  | "2x4" 
+  // | "4x2"
   | "4x4"
-  | "4x6"; // First number is width, second is height
+  // | "4x6"; // First number is width, second is height
 export type GridItemType = "social" | "equipment" | "mentor" | "project";
 export type EqiupmentItem = {
   title: string;
