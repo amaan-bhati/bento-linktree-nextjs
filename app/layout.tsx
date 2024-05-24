@@ -39,7 +39,7 @@ const sfPRO = localFont({
 });
 
 export const metadata = {
-  title: "Amaan Bhati CV",
+  title: "Amaan Bhati Contact Website",
   description: "Shorter and mopre straight forward version of Amaan Bhati's portfolio website built onm top of NextJS",
 };
 
