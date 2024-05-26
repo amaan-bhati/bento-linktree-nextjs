@@ -54,6 +54,19 @@ const GridItems: GridItemInterface[] = [
     description:
       "Web Dev Lead at @MLSAKIIT || Enthusiastic tech geek || Aspiring Software Developer || reactjs/next || javascript || tailwind || typescript || threejs",
   },
+  {
+    layout: "2x2",
+    type: "social",
+    title: "Portfolio Website",
+    // icon: "twitter",
+    username: "amaanbhati.tech",
+    buttonTitle: "View Portfolio",
+    buttonLink: "https://amaanbhati.tech",
+    // buttonSecondaryText: "279",
+    color: "#1DA1F2",
+    description:
+      "Initially built on top of reactjs, standing tall and responsive since the last two years is where you'll get to know more about me. Make sure you visit!",
+  },
  
 
   {
@@ -81,19 +94,7 @@ const GridItems: GridItemInterface[] = [
     description:
       "Tech twitter is what keeps me updated with modern tech stacks and also keeps me entertained with technical memes and discussions.",
   },
-  {
-    layout: "2x2",
-    type: "social",
-    title: "Portfolio Website",
-    // icon: "twitter",
-    username: "amaanbhati.tech",
-    buttonTitle: "View Portfolio",
-    buttonLink: "https://amaanbhati.tech",
-    // buttonSecondaryText: "279",
-    color: "#1DA1F2",
-    description:
-      "Initially built on top of reactjs, standing tall and responsive since the last two years is where you'll get to know more about me. Make sure you visit!",
-  },
+ 
   {
     layout: "2x2",
     type: "social",
@@ -101,7 +102,7 @@ const GridItems: GridItemInterface[] = [
     // icon: "twitter",
     username: "amaan-bhati",
     buttonTitle: "View Profile",
-    buttonLink: "https://leetcode.com/amaan-bhati",
+    buttonLink: "https://leetcode.com/amaanbhati",
     // buttonSecondaryText: "279",
     color: "#1DA1F2",
     description:
@@ -201,7 +202,26 @@ const GridItems: GridItemInterface[] = [
     ],
   },
 
+
+  {
+    layout: "2x2",
+    type: "social",
+    title: "Check out my Projects",
+    // icon: "twitter",
+    // username: "Neeche dekho",
+    buttonTitle: "View Projects",
+    buttonLink: "https://www.amaanbhati.tech/projectspage",
+    // buttonSecondaryText: "279",
+    color: "#1DA1F2",
+    description:
+      "Visit my portfolio website to view my projects accross multiple domains using various tech stacks. From basic to advanced, all at one place.",
+      // username: "Elon Musk",
+  },
+
  
+
+
+
   {
     layout: "2x2",
     type: "social",
