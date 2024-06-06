@@ -251,16 +251,16 @@ const GridItems: GridItemInterface[] = [
       "This is a shorter version of my portfolio that I designed and developed in two days, it is still in progress. Hence, make sure you visit again.",
       // username: "Elon Musk",
   },
-  {
-    layout: "2x4",
-    type: "equipment",
-    title: "",
-    image: "/image-1.png",
-    equipments: [
+  // {
+  //   layout: "2x4",
+  //   type: "equipment",
+  //   title: "",
+  //   image: "/image-1.png",
+  //   equipments: [
       
       
-    ],
-  },
+  //   ],
+  // },
 
 
 
