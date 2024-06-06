@@ -32,6 +32,7 @@ const GridItems: GridItemInterface[] = [
     layout: "2x2",
     type: "social",
     title: "Linkedin",
+    // icon:"linkedin",
 
     username: "@amaan-bhati",
     description:
@@ -45,12 +46,12 @@ const GridItems: GridItemInterface[] = [
     layout: "2x2",
     type: "social",
     title: "Github",
-    // icon: "github",
+    icon: "github",
     username: "@amaan-bhati",
     buttonTitle: "Follow",
     // buttonSecondaryText: "19",
     buttonLink: "https://github.com/amaan-bhati",
-    color: "#1DA1F2",
+    color: "black",
     description:
       "Web Dev Lead at @MLSAKIIT || Enthusiastic tech geek || Aspiring Software Developer || reactjs/next || javascript || tailwind || typescript || threejs",
   },
@@ -65,12 +66,12 @@ const GridItems: GridItemInterface[] = [
     // buttonSecondaryText: "279",
     color: "#1DA1F2",
     description:
-      "Initially built on top of reactjs, standing tall and responsive since the last two years is where you'll get to know more about me. Make sure you visit!",
+      "Built using reactjs, standing tall and responsive since the last 2 years, you'll get to know more about me. Make sure you visit!",
   },
  
 
   {
-    layout: "2x2",
+    layout: "1x2",
     type: "social",
     title: "Instagram",
     // icon: "discord",
@@ -79,10 +80,10 @@ const GridItems: GridItemInterface[] = [
     buttonLink: "https://instagram.com/amaanbhatiii",
     // buttonSecondaryText: "44",
     color: "#1DA1F2",
-    description: "Keeps me connected with family and friends while we share memes and reels only to waste time in the name of relaxing ourselves.",
+    // description: "Keeps me connected with family and friends while we share memes and reels only to waste time in the name of relaxing ourselves.",
   },
   {
-    layout: "2x2",
+    layout: "1x2",
     type: "social",
     title: "Twitter",
     // icon: "twitter",
@@ -91,8 +92,8 @@ const GridItems: GridItemInterface[] = [
     buttonLink: "https://twitter.com/front_end_er",
     // buttonSecondaryText: "279",
     color: "#1DA1F2",
-    description:
-      "Tech twitter is what keeps me updated with modern tech stacks and also keeps me entertained with technical memes and discussions.",
+    // description:
+      // "Tech twitter is what keeps me updated with modern tech stacks and also keeps me entertained with technical memes and discussions.",
   },
  
   {
