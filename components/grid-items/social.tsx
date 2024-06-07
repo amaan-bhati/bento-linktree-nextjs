@@ -19,10 +19,10 @@ const Social = ({ item }: { item: GridItemInterface }) => {
       </div>
       {/* Content */}
       <div className="mt-2">
-        <div className="@lg:text-lg font-semibold line-clamp-1">
+        <div className="@lg:text-lg font-bold line-clamp-1">
           {item.title}
         </div>
-        <div className="text-sm text-neutral-500">{item.username}</div>
+        <div className="text-sm font-semi-bold text-neutral-500">{item.username}</div>
         {item.description && (
           <div className="mt-1 text-xs text-neutral-500 line-clamp-2">
             {item.description}
