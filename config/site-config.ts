@@ -28,6 +28,35 @@ export interface GridItemInterface {
 }
 
 const GridItems: GridItemInterface[] = [
+ 
+  
+  {
+    layout: "2x2",
+    type: "social",
+    title: "Github",
+    // icon: "github",
+    username: "@amaan-bhati",
+    // buttonTitle: "Follow",
+    // buttonSecondaryText: "19",
+    buttonLink: "https://github.com/amaan-bhati",
+    color: "#1DA1F2",
+    description:
+      "Web Dev Lead at @MLSAKIIT || Enthusiastic tech geek || Aspiring Software Developer || reactjs/next || javascript || tailwind || typescript || threejs",
+  },
+
+  {
+    layout: "2x2",
+    type: "social",
+    title: "Portfolio Website",
+    // icon: "twitter",
+    username: "amaanbhati.tech",
+    // buttonTitle: "View Portfolio",
+    buttonLink: "https://amaanbhati.tech",
+    // buttonSecondaryText: "279",
+    color: "#1DA1F2",
+    description:
+      "Built using reactjs, standing tall and responsive since the last 2 years, you'll get to know more about me. Make sure you visit!",
+  },
   {
     layout: "2x2",
     type: "social",
@@ -38,37 +67,13 @@ const GridItems: GridItemInterface[] = [
     description:
       "CSE '25 || Web lead at MLSAKIIT || Web Dev intern at KIIT Digital || GSSOC'24 Mentor || Ex-Web developer and at TEDX and KIITFEST || Javascript || Reactjs || Tailwind CSS || TypeScript || Next.js || Three.js",
     color: "#1DA1F2",
-    buttonTitle: "Connect",
+    // buttonTitle: "Connect",
     buttonLink: "https://www.linkedin.com/in/amaan-bhati",
-    buttonSecondaryText: "5K",
-  },
-  {
-    layout: "2x2",
-    type: "social",
-    title: "Github",
-    icon: "github",
-    username: "@amaan-bhati",
-    buttonTitle: "Follow",
-    // buttonSecondaryText: "19",
-    buttonLink: "https://github.com/amaan-bhati",
-    color: "black",
-    description:
-      "Web Dev Lead at @MLSAKIIT || Enthusiastic tech geek || Aspiring Software Developer || reactjs/next || javascript || tailwind || typescript || threejs",
-  },
-  {
-    layout: "2x2",
-    type: "social",
-    title: "Portfolio Website",
-    // icon: "twitter",
-    username: "amaanbhati.tech",
-    buttonTitle: "View Portfolio",
-    buttonLink: "https://amaanbhati.tech",
-    // buttonSecondaryText: "279",
-    color: "#1DA1F2",
-    description:
-      "Built using reactjs, standing tall and responsive since the last 2 years, you'll get to know more about me. Make sure you visit!",
+    // buttonSecondaryText: "5K",
   },
  
+ 
+  
 
   {
     layout: "1x2",
@@ -76,10 +81,11 @@ const GridItems: GridItemInterface[] = [
     title: "Instagram",
     // icon: "discord",
     username: "@amaanbhatiii",
-    buttonTitle: "Follow",
-    buttonLink: "https://instagram.com/amaanbhatiii",
+    // buttonTitle: "Follow",
+  
     // buttonSecondaryText: "44",
     color: "#1DA1F2",
+    buttonLink: "https://instagram.com/amaanbhatiii",
     // description: "Keeps me connected with family and friends while we share memes and reels only to waste time in the name of relaxing ourselves.",
   },
   {
@@ -88,7 +94,7 @@ const GridItems: GridItemInterface[] = [
     title: "Twitter",
     // icon: "twitter",
     username: "@front_end_er",
-    buttonTitle: "Follow",
+    // buttonTitle: "Follow",
     buttonLink: "https://twitter.com/front_end_er",
     // buttonSecondaryText: "279",
     color: "#1DA1F2",
@@ -97,17 +103,30 @@ const GridItems: GridItemInterface[] = [
   },
  
   {
-    layout: "2x2",
+    layout: "1x2",
     type: "social",
-    title: "Leetcode Profile",
+    title: "Leetcode",
     // icon: "twitter",
-    username: "amaan-bhati",
-    buttonTitle: "View Profile",
+    username: "@amaan-bhati",
+    // buttonTitle: "View Profile",
     buttonLink: "https://leetcode.com/amaanbhati",
     // buttonSecondaryText: "279",
     color: "#1DA1F2",
-    description:
-      "This is where I solve DSA and programming questions on a daily basis to improve my problem solving skills and still suck at it.",
+    // description:
+  },
+
+  {
+    layout: "1x2",
+    type: "social",
+    title: "Youtube",
+    // icon: "youtube",
+    // icon: "discord",
+    username: "@amaan-bhati",
+    // buttonTitle: "Subscribe",
+    buttonLink: "https://youtu.be/xvFZjo5PgG0?si=oroLylgt6dbhY8WQ",
+    // buttonSecondaryText: "44",
+    color: "#1DA1F2",
+    // description: "Keeps me connected with family and friends while we share memes and reels only to waste time in the name of relaxing ourselves.",
   },
  
   {
@@ -210,7 +229,7 @@ const GridItems: GridItemInterface[] = [
     title: "Check out my Projects",
     // icon: "twitter",
     // username: "Neeche dekho",
-    buttonTitle: "View Projects",
+    // buttonTitle: "View Projects",
     buttonLink: "https://www.amaanbhati.tech/projectspage",
     // buttonSecondaryText: "279",
     color: "#1DA1F2",
@@ -248,7 +267,7 @@ const GridItems: GridItemInterface[] = [
     // buttonSecondaryText: "279",
     color: "#1DA1F2",
     description:
-      "This is a shorter version of my portfolio that I designed and developed in two days, it is still in progress. Hence, make sure you visit again.",
+      "I designed and developed this site in two days, it is still in progress. Hence, make sure you visit again.",
       // username: "Elon Musk",
   },
   // {
@@ -362,14 +381,17 @@ const GridItems: GridItemInterface[] = [
   // },
 ];
 
+
+
 export const siteConfig = {
   creator: "Amaan Bhati",
   title: "Web/Software Developer",
   
-  bio: "Aspiring software engineer with early experience in professional web development. I create interactive, user-friendly websites and crave a software engineering role to leverage my web dev experience. Also a tech enthusiast hence, connect on socials if you wanna talk about modern web dev frameworks, libraries and best practices or anything related to tech in general! Recruiters, let's connect - my skills can be your asset!",
-  location: "Bangalore, India",
+  bio: "Aspiring software engineer with early experience in professional web development.  Also a tech enthusiast! hence, connect on socials if you wanna talk about potential opportunities, modern web dev frameworks, libraries and best practices or anything related to tech in general!",
+  location: "Download Resume",
   
-  email: "amaanbhati49@gmail.com",
+  email: "amaanbhati.tech",
   items: GridItems,
   
 } as const;
+

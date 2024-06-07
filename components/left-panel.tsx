@@ -37,23 +37,23 @@ const LeftPanel = () => {
             {siteConfig.bio}
           </p>
         </div>
-        {/* Buttons Container
+        {/* Buttons Container */}
          
           <div className="flex items-center gap-3 mt-6">
             <a
-              href={``}
+              href={`https://drive.google.com/file/d/1rJNGaVu30-4Ts_DVbnx1KaGtwu6f2WeH/view?usp=sharing`}
               className="flex items-center w-full gap-2 px-4 py-2 text-sm font-medium border rounded-md border-neutral-100 dark:border-neutral-800"
             >
               {siteConfig.location}
             </a>
             <a
-              href={`mailto:${siteConfig.email}`}
+              href={`https://amaanbhati.tech`}
               className="flex items-center w-full gap-2 px-4 py-2 text-sm font-medium border rounded-md border-neutral-100 dark:border-neutral-800 "
             >
-              <Mail size="14" />
-              Contact Me
+              
+              Visit Portfolio
             </a>
-          </div> */}
+          </div> 
         
         {/* Footer */}
         <div className="hidden mt-6 xl:flex">
