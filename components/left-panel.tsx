@@ -31,12 +31,14 @@ const LeftPanel = () => {
             {siteConfig.title}
           </div>
           <h1 className="mt-1 text-4xl font-bold">{siteConfig.creator}</h1>
+          
+
           <p className="text-l mt-1 font-bold text-neutral-500 ">
             {siteConfig.bio}
           </p>
         </div>
-        {/* Buttons Container */}
-        {/*  <div className="hidden lg-block">
+        {/* Buttons Container
+         
           <div className="flex items-center gap-3 mt-6">
             <a
               href={``}
@@ -51,8 +53,8 @@ const LeftPanel = () => {
               <Mail size="14" />
               Contact Me
             </a>
-          </div>"}
-        </div>*/}
+          </div> */}
+        
         {/* Footer */}
         <div className="hidden mt-6 xl:flex">
           <Footer />
