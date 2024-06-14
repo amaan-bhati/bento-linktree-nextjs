@@ -238,24 +238,37 @@ const GridItems: GridItemInterface[] = [
       // username: "Elon Musk",
   },
 
- 
-
-
-
   {
     layout: "2x2",
     type: "social",
-    title: "One quote by Elon Musk that gets me going",
+    title: "Blog Website",
     // icon: "twitter",
-    // username: "Neeche dekho",
+    username: "blog.amaanbhati.tech",
     // buttonTitle: "Follow",
-    // buttonLink: "https://twitter.com/makrdev",
+    buttonLink: "https://blog.amaanbhati.tech",
     // buttonSecondaryText: "279",
     color: "#1DA1F2",
     description:
-      "“It’s very important to have a feedback loop, where you’re constantly thinking about what you’ve done and how you could be doing it better.”",
+      "Blog site built on top of nextjs where I post blogs based on my experiences, interests, best practices and productivity.",
       // username: "Elon Musk",
   },
+
+
+
+  // {
+  //   layout: "2x2",
+  //   type: "social",
+  //   title: "One quote by Elon Musk that gets me going",
+  //   // icon: "twitter",
+  //   // username: "Neeche dekho",
+  //   // buttonTitle: "Follow",
+  //   // buttonLink: "https://twitter.com/makrdev",
+  //   // buttonSecondaryText: "279",
+  //   color: "#1DA1F2",
+  //   description:
+  //     "“It’s very important to have a feedback loop, where you’re constantly thinking about what you’ve done and how you could be doing it better.”",
+  //     // username: "Elon Musk",
+  // },
   {
     layout: "2x2",
     type: "social",
