@@ -11,8 +11,8 @@ const LeftPanel = () => {
       className="flex flex-col justify-between py-6 xl:max-w-sm xl:py-10 xl:h-full"
     >
       {/* Top Container */}
-      <div>
-        <div>
+      <div >
+        <div className="">
           <Image
             priority
             loading="eager"
@@ -35,11 +35,11 @@ const LeftPanel = () => {
           <p className="text-l mt-1  text-neutral-500 ">{siteConfig.bio}</p>
         </div>
         {/* Buttons Container */}
-        <div className="hidden sm-block">
-          <div className="flex items-center gap-3 mt-6">
+        <div className="md-hidden">
+          <div className="flex items-center gap-3 mt-6 lg-hidden">
             <a
               href={`https://drive.google.com/file/d/1rJNGaVu30-4Ts_DVbnx1KaGtwu6f2WeH/view?usp=sharing`}
-              className="flex items-center w-full gap-2 px-4 py-2 text-sm font-medium border rounded-md border-neutral-100 dark:border-neutral-800"
+              className="flex items-center w-full gap-2 px-4 py-2 text-sm font-medium border rounded-md border-neutral-100 dark:border-neutral-800 "
             >
               {siteConfig.location}
             </a>
