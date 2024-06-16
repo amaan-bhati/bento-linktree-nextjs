@@ -128,99 +128,6 @@ const GridItems: GridItemInterface[] = [
     color: "#1DA1F2",
     // description: "Keeps me connected with family and friends while we share memes and reels only to waste time in the name of relaxing ourselves.",
   },
- 
-  {
-    layout: "2x4",
-    type: "equipment",
-    title: "SKILLS AND TOOLS",
-    image: "/image.png",
-    equipments: [
-      {
-        title: "HTML/CSS",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "Javascript",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "Typescript",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "Reactjs",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "Nextjs",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "Threejs",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "Next Auth",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "NodeJS",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "ExpressJS",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "MongoDB",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "Firebase",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "TailwindCSS",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "Computer Vision",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "OpenCv",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "OpenAI",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "GenerativeAI",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "Supabase",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "PostgreSQL",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "SQL",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "Python",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "C++",
-        link: "github.com/amaan-bhati",
-      },
-    ],
-  },
 
 
   {
@@ -250,45 +157,208 @@ const GridItems: GridItemInterface[] = [
     color: "#1DA1F2",
     description:
       "Blog site built on top of nextjs where I post blogs based on my experiences, interests, best practices and productivity.",
+      // username: "Elon Musk", https://open.spotify.com/playlist/04DEjJ6oWgthgqYpFa9ULX?si=Vxw4f0-XRmCcuUpao1bNkQ&pi=EV3W6r_2RE6sW&nd=1&dlsi=65725a32417046df
+  },
+
+  
+  {
+    layout: "2x2",
+    type: "social",
+    title: "Spotify work mode playlist",
+    // icon: "twitter",
+    // username: "amaan",
+    // buttonTitle: "Follow",
+    buttonLink: " https://open.spotify.com/playlist/04DEjJ6oWgthgqYpFa9ULX?si=Vxw4f0-XRmCcuUpao1bNkQ&pi=EV3W6r_2RE6sW&nd=1&dlsi=65725a32417046df",
+    // buttonSecondaryText: "279",
+    color: "#1DA1F2",
+    description:
+      "My very own Spotify playlist with a bunch of songs that I listen to while writing code to bring the best out of my productivity.  ",
       // username: "Elon Musk",
   },
 
 
+ 
+ 
+ 
+  // {
+  //   layout: "2x4",
+  //   type: "equipment",
+  //   title: "SKILLS/Languages",
+  //   image: "/image.png",
+  //   equipments: [
+  //     {
+  //       title: "HTML/CSS",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "Javascript",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "Typescript",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "C++",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "C",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "Python",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "SQL",
+  //       link: "github.com/amaan-bhati",
+  //     },
+     
+  //   ],
+  // },
+
 
   // {
-  //   layout: "2x2",
-  //   type: "social",
-  //   title: "One quote by Elon Musk that gets me going",
-  //   // icon: "twitter",
-  //   // username: "Neeche dekho",
-  //   // buttonTitle: "Follow",
-  //   // buttonLink: "https://twitter.com/makrdev",
-  //   // buttonSecondaryText: "279",
-  //   color: "#1DA1F2",
-  //   description:
-  //     "“It’s very important to have a feedback loop, where you’re constantly thinking about what you’ve done and how you could be doing it better.”",
-  //     // username: "Elon Musk",
+  //   layout: "2x4",
+  //   type: "equipment",
+  //   title: "SKILLS/Libraries and Frameworks",
+  //   image: "/image.png",
+  //   equipments: [
+  //     {
+  //       title: "React.js",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "Next.js",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "Redux",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "Express.js",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "NextAuth",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "Threejs",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "Next Auth",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "NodeJS",
+  //       link: "github.com/amaan-bhati",
+  //     },
+     
+      
+  //   ],
   // },
+
+  
+  // {
+  //   layout: "2x4",
+  //   type: "equipment",
+  //   title: "SKILLS/Styling Tools",
+  //   image: "/image.png",
+  //   equipments: [
+  //     {
+  //       title: "CSS",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "SCSS",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "TailwindCSS",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "Shadcn",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "Framer Motion",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "Material UI",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "Figma",
+  //       link: "github.com/amaan-bhati",
+  //     },
+      
+      
+  //   ],
+  // },
+
+
+  
+  // {
+  //   layout: "2x4",
+  //   type: "equipment",
+  //   title: "SKILLS/Database and other tools",
+  //   image: "/image.png",
+  //   equipments: [
+  //     {
+  //       title: "MongoDb",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "NeonDb",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "Supabase",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "Firebase",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "Postgress",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "Postman",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "AWS S3",
+  //       link: "github.com/amaan-bhati",
+  //     },
+      
+     
+      
+  //   ],
+  // },
+
+
+
+
+
+ 
   {
     layout: "2x2",
     type: "social",
     title: "Make sure you visit again",
-    // icon: "twitter",
-    // username: "Neeche dekho",
-    // buttonTitle: "Follow",
-    // buttonLink: "https://twitter.com/makrdev",
-    // buttonSecondaryText: "279",
+  
     color: "#1DA1F2",
     description:
       "I designed and developed this site in two days, it is still in progress. Hence, make sure you visit again.",
-      // username: "Elon Musk",
+  
   },
-  // {
-  //   layout: "2x4",
-  //   type: "equipment",
-  //   title: "",
-  //   image: "/image-1.png",
-  //   equipments: [
       
       
   //   ],
