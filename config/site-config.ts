@@ -28,8 +28,6 @@ export interface GridItemInterface {
 }
 
 const GridItems: GridItemInterface[] = [
- 
-  
   {
     layout: "2x2",
     type: "social",
@@ -71,9 +69,6 @@ const GridItems: GridItemInterface[] = [
     buttonLink: "https://www.linkedin.com/in/amaan-bhati",
     // buttonSecondaryText: "5K",
   },
- 
- 
-  
 
   {
     layout: "1x2",
@@ -82,7 +77,7 @@ const GridItems: GridItemInterface[] = [
     // icon: "discord",
     username: "@amaanbhatiii",
     // buttonTitle: "Follow",
-  
+
     // buttonSecondaryText: "44",
     color: "#1DA1F2",
     buttonLink: "https://instagram.com/amaanbhatiii",
@@ -99,9 +94,9 @@ const GridItems: GridItemInterface[] = [
     // buttonSecondaryText: "279",
     color: "#1DA1F2",
     // description:
-      // "Tech twitter is what keeps me updated with modern tech stacks and also keeps me entertained with technical memes and discussions.",
+    // "Tech twitter is what keeps me updated with modern tech stacks and also keeps me entertained with technical memes and discussions.",
   },
- 
+
   {
     layout: "1x2",
     type: "social",
@@ -129,7 +124,6 @@ const GridItems: GridItemInterface[] = [
     // description: "Keeps me connected with family and friends while we share memes and reels only to waste time in the name of relaxing ourselves.",
   },
 
-
   {
     layout: "2x2",
     type: "social",
@@ -142,7 +136,7 @@ const GridItems: GridItemInterface[] = [
     color: "#1DA1F2",
     description:
       "Visit my portfolio website to view my projects accross multiple domains using various tech stacks. From basic to advanced, all at one place.",
-      // username: "Elon Musk",
+    // username: "Elon Musk",
   },
 
   {
@@ -157,10 +151,9 @@ const GridItems: GridItemInterface[] = [
     color: "#1DA1F2",
     description:
       "Blog site built on top of nextjs where I post blogs based on my experiences, interests, best practices and productivity.",
-      // username: "Elon Musk", https://open.spotify.com/playlist/04DEjJ6oWgthgqYpFa9ULX?si=Vxw4f0-XRmCcuUpao1bNkQ&pi=EV3W6r_2RE6sW&nd=1&dlsi=65725a32417046df
+    // username: "Elon Musk", https://open.spotify.com/playlist/04DEjJ6oWgthgqYpFa9ULX?si=Vxw4f0-XRmCcuUpao1bNkQ&pi=EV3W6r_2RE6sW&nd=1&dlsi=65725a32417046df
   },
 
-  
   {
     layout: "2x2",
     type: "social",
@@ -168,313 +161,221 @@ const GridItems: GridItemInterface[] = [
     // icon: "twitter",
     // username: "amaan",
     // buttonTitle: "Follow",
-    buttonLink: " https://open.spotify.com/playlist/04DEjJ6oWgthgqYpFa9ULX?si=Vxw4f0-XRmCcuUpao1bNkQ&pi=EV3W6r_2RE6sW&nd=1&dlsi=65725a32417046df",
+    buttonLink:
+      " https://open.spotify.com/playlist/04DEjJ6oWgthgqYpFa9ULX?si=Vxw4f0-XRmCcuUpao1bNkQ&pi=EV3W6r_2RE6sW&nd=1&dlsi=65725a32417046df",
     // buttonSecondaryText: "279",
     color: "#1DA1F2",
     description:
       "My very own Spotify playlist with a bunch of songs that I listen to while writing code to bring the best out of my productivity.  ",
-      // username: "Elon Musk",
+    // username: "Elon Musk",
   },
 
+  {
+    layout: "2x4",
+    type: "equipment",
+    title: "SKILLS/Languages",
+    image: "/8.jpg",
+    equipments: [
+      {
+        title: "HTML/CSS",
+        link: "github.com/amaan-bhati",
+      },
+      {
+        title: "Javascript",
+        link: "github.com/amaan-bhati",
+      },
+      {
+        title: "Typescript",
+        link: "github.com/amaan-bhati",
+      },
+      {
+        title: "C++",
+        link: "github.com/amaan-bhati",
+      },
+      {
+        title: "C",
+        link: "github.com/amaan-bhati",
+      },
+      {
+        title: "Python",
+        link: "github.com/amaan-bhati",
+      },
+      {
+        title: "SQL",
+        link: "github.com/amaan-bhati",
+      },
+    ],
+  },
 
- 
- 
- 
-  // {
-  //   layout: "2x4",
-  //   type: "equipment",
-  //   title: "SKILLS/Languages",
-  //   image: "/image.png",
-  //   equipments: [
-  //     {
-  //       title: "HTML/CSS",
-  //       link: "github.com/amaan-bhati",
-  //     },
-  //     {
-  //       title: "Javascript",
-  //       link: "github.com/amaan-bhati",
-  //     },
-  //     {
-  //       title: "Typescript",
-  //       link: "github.com/amaan-bhati",
-  //     },
-  //     {
-  //       title: "C++",
-  //       link: "github.com/amaan-bhati",
-  //     },
-  //     {
-  //       title: "C",
-  //       link: "github.com/amaan-bhati",
-  //     },
-  //     {
-  //       title: "Python",
-  //       link: "github.com/amaan-bhati",
-  //     },
-  //     {
-  //       title: "SQL",
-  //       link: "github.com/amaan-bhati",
-  //     },
+  {
+    layout: "2x4",
+    type: "equipment",
+    title: "SKILLS/Libraries and Frameworks",
+    image: "/7.jpg",
+    equipments: [
+      {
+        title: "React.js",
+        link: "github.com/amaan-bhati",
+      },
+      {
+        title: "Next.js",
+        link: "github.com/amaan-bhati",
+      },
+      {
+        title: "Redux",
+        link: "github.com/amaan-bhati",
+      },
+      {
+        title: "Express.js",
+        link: "github.com/amaan-bhati",
+      },
+      {
+        title: "NextAuth",
+        link: "github.com/amaan-bhati",
+      },
+      {
+        title: "Threejs",
+        link: "github.com/amaan-bhati",
+      },
+      {
+        title: "Next Auth",
+        link: "github.com/amaan-bhati",
+      },
+      {
+        title: "NodeJS",
+        link: "github.com/amaan-bhati",
+      },
+    ],
+  },
+
+  {
+    layout: "2x4",
+    type: "equipment",
+    title: "SKILLS/Styling Tools",
+    image: "/1.jpg",
+    equipments: [
+      {
+        title: "CSS",
+        link: "github.com/amaan-bhati",
+      },
+      {
+        title: "SCSS",
+        link: "github.com/amaan-bhati",
+      },
+      {
+        title: "TailwindCSS",
+        link: "github.com/amaan-bhati",
+      },
+      {
+        title: "Shadcn",
+        link: "github.com/amaan-bhati",
+      },
+      {
+        title: "Framer Motion",
+        link: "github.com/amaan-bhati",
+      },
+      {
+        title: "Material UI",
+        link: "github.com/amaan-bhati",
+      },
+      {
+        title: "Figma",
+        link: "github.com/amaan-bhati",
+      },
+    ],
+  },
+
+  {
+    layout: "2x4",
+    type: "equipment",
+    title: "SKILLS/Development tools",
+    image: "/5.jpg",
+    equipments: [
+      {
+        title: "Visual Studio",
+        link: "github.com/amaan-bhati",
+      },
+      {
+        title: "VS Code",
+        link: "github.com/amaan-bhati",
+      },
+      {
+        title: "Wappalyzer",
+        link: "github.com/amaan-bhati",
+      },
+      {
+        title: "GIT/Github",
+        link: "github.com/amaan-bhati",
+      },
+      {
+        title: "Bash/Shell",
+        link: "github.com/amaan-bhati",
+      },
      
-  //   ],
-  // },
+      {
+        title: "Docker",
+        link: "github.com/amaan-bhati",
+      },
+      {
+        title: "Vercel",
+        link: "github.com/amaan-bhati",
+      },
+    ],
+  },
 
-
-  // {
-  //   layout: "2x4",
-  //   type: "equipment",
-  //   title: "SKILLS/Libraries and Frameworks",
-  //   image: "/image.png",
-  //   equipments: [
-  //     {
-  //       title: "React.js",
-  //       link: "github.com/amaan-bhati",
-  //     },
-  //     {
-  //       title: "Next.js",
-  //       link: "github.com/amaan-bhati",
-  //     },
-  //     {
-  //       title: "Redux",
-  //       link: "github.com/amaan-bhati",
-  //     },
-  //     {
-  //       title: "Express.js",
-  //       link: "github.com/amaan-bhati",
-  //     },
-  //     {
-  //       title: "NextAuth",
-  //       link: "github.com/amaan-bhati",
-  //     },
-  //     {
-  //       title: "Threejs",
-  //       link: "github.com/amaan-bhati",
-  //     },
-  //     {
-  //       title: "Next Auth",
-  //       link: "github.com/amaan-bhati",
-  //     },
-  //     {
-  //       title: "NodeJS",
-  //       link: "github.com/amaan-bhati",
-  //     },
+  {
+    layout: "2x4",
+    type: "equipment",
+    title: "SKILLS/Database and other tools",
+    image: "/8.jpg",
+    equipments: [
+      {
+        title: "MongoDb",
+        link: "github.com/amaan-bhati",
+      },
+      {
+        title: "NeonDb",
+        link: "github.com/amaan-bhati",
+      },
+      {
+        title: "Supabase",
+        link: "github.com/amaan-bhati",
+      },
+      {
+        title: "Firebase",
+        link: "github.com/amaan-bhati",
+      },
+      {
+        title: "Postgress",
+        link: "github.com/amaan-bhati",
+      },
      
-      
-  //   ],
-  // },
+      {
+        title: "AWS S3",
+        link: "github.com/amaan-bhati",
+      },
+    ],
+  },
 
-  
-  // {
-  //   layout: "2x4",
-  //   type: "equipment",
-  //   title: "SKILLS/Styling Tools",
-  //   image: "/image.png",
-  //   equipments: [
-  //     {
-  //       title: "CSS",
-  //       link: "github.com/amaan-bhati",
-  //     },
-  //     {
-  //       title: "SCSS",
-  //       link: "github.com/amaan-bhati",
-  //     },
-  //     {
-  //       title: "TailwindCSS",
-  //       link: "github.com/amaan-bhati",
-  //     },
-  //     {
-  //       title: "Shadcn",
-  //       link: "github.com/amaan-bhati",
-  //     },
-  //     {
-  //       title: "Framer Motion",
-  //       link: "github.com/amaan-bhati",
-  //     },
-  //     {
-  //       title: "Material UI",
-  //       link: "github.com/amaan-bhati",
-  //     },
-  //     {
-  //       title: "Figma",
-  //       link: "github.com/amaan-bhati",
-  //     },
-      
-      
-  //   ],
-  // },
-
-
-  
-  // {
-  //   layout: "2x4",
-  //   type: "equipment",
-  //   title: "SKILLS/Database and other tools",
-  //   image: "/image.png",
-  //   equipments: [
-  //     {
-  //       title: "MongoDb",
-  //       link: "github.com/amaan-bhati",
-  //     },
-  //     {
-  //       title: "NeonDb",
-  //       link: "github.com/amaan-bhati",
-  //     },
-  //     {
-  //       title: "Supabase",
-  //       link: "github.com/amaan-bhati",
-  //     },
-  //     {
-  //       title: "Firebase",
-  //       link: "github.com/amaan-bhati",
-  //     },
-  //     {
-  //       title: "Postgress",
-  //       link: "github.com/amaan-bhati",
-  //     },
-  //     {
-  //       title: "Postman",
-  //       link: "github.com/amaan-bhati",
-  //     },
-  //     {
-  //       title: "AWS S3",
-  //       link: "github.com/amaan-bhati",
-  //     },
-      
-     
-      
-  //   ],
-  // },
-
-
-
-
-
- 
   {
     layout: "2x2",
     type: "social",
     title: "Make sure you visit again",
-  
+
     color: "#1DA1F2",
     description:
       "I designed and developed this site in two days, it is still in progress. Hence, make sure you visit again.",
-  
   },
-      
-      
-  //   ],
-  // },
 
-
-
-  // {
-  //   layout: "2x1",
-  //   type: "mentor",
-  //   title: "Web Dev Lead at MLSAKIIT",
-  //   // icon: "superpeer",
-  //   promotion: "Aug'23 - Present",
-  //   // oldPrice: "$100",
-  //   // price: "$50",
-  //   buttonLink: "https://superpeer.com/makrdev/-/nextjs-mentor",
-  // },
-  // {
-  //   layout: "2x1",
-  //   type: "mentor",
-  //   title: "Next.js Mentorship",
-  //   icon: "superpeer",
-  //   promotion: "MAKRDEVFELLOWS",
-  //   oldPrice: "$100",
-  //   price: "$50",
-  //   buttonLink: "https://superpeer.com/makrdev/-/nextjs-mentor",
-  // },
-  // {
-  //   layout: "2x1",
-  //   type: "mentor",
-  //   title: "Next.js Mentorship",
-  //   icon: "superpeer",
-  //   promotion: "MAKRDEVFELLOWS",
-  //   oldPrice: "$100",
-  //   price: "$50",
-  //   buttonLink: "https://superpeer.com/makrdev/-/nextjs-mentor",
-  // },
-  // {
-  //   layout: "2x1",
-  //   type: "mentor",
-  //   title: "Next.js Mentorship",
-  //   icon: "superpeer",
-  //   promotion: "MAKRDEVFELLOWS",
-  //   oldPrice: "$100",
-  //   price: "$50",
-  //   buttonLink: "https://superpeer.com/makrdev/-/nextjs-mentor",
-  // },
-  // {
-  //   layout: "2x1",
-  //   type: "mentor",
-  //   title: "Supabase Mentorship",
-  //   icon: "superpeer",
-  //   promotion: "MAKRDEVFELLOWS",
-  //   // oldPrice: "$100",
-  //   price: "$50",
-  //   liveLink: "github.com/amaan-bhati",
-  //   buttonLink: "https://superpeer.com/makrdev/-/supabase-mentor",
-  // },
-  // {
-  //   layout: "2x1",
-  //   type: "project",
-  //   title: "makrAI",
-  //   icon: "github",
-  //   color: "#070707",
-  //   buttonLink: "https://github.com/batuhanbilginn/makr-ai",
-
-  //   stars: 73,
-  // },
-  // {
-  //   layout: "2x2",
-  //   type: "social",
-  //   title: "Full-stack Multilingual Blog with Next.js 13",
-  //   username: "@batuhanbilginn",
-  //   description:
-  //     "Learn how to build a full-stack, multilingual and high performant blog website with Next.js 13.4 and Directus.",
-  //   icon: "udemy",
-  //   buttonTitle: "Enroll",
-  //   buttonSecondaryText: "%90 OFF",
-  //   buttonLink:
-  //     "https://www.udemy.com/course/nextjs13-fullstack-blog-seo-internationalization/?couponCode=MAKRDEVFELLOWS2",
-  // },
-  // {
-  //   layout: "2x2",
-  //   type: "social",
-  //   title: "Full-stack Multilingual Blog with Next.js 13",
-  //   username: "@batuhanbilginn",
-  //   description:
-  //     "Learn how to build a full-stack, multilingual and high performant blog website with Next.js 13.4 and Directus.",
-  //   icon: "udemy",
-  //   buttonTitle: "Enroll",
-  //   buttonSecondaryText: "%90 OFF",
-  //   buttonLink:
-  //     "https://www.udemy.com/course/nextjs13-fullstack-blog-seo-internationalization/?couponCode=MAKRDEVFELLOWS2",
-  // },
-  // {
-  //   layout: "2x1",
-  //   type: "project",
-  //   title: "AI Blog Post Generator",
-  //   icon: "github",
-  //   stars: 19,
-  //   color: "#070707",
-  //   buttonLink: "https://github.com/batuhanbilginn/ai-blog-post-generator",
-  // },
 ];
-
-
 
 export const siteConfig = {
   creator: "Amaan Bhati",
   title: "Web/Software Developer",
-  
+
   bio: "Aspiring software engineer with early experience in professional web development.  Also a tech enthusiast! hence, connect on socials if you wanna talk about potential opportunities, modern web dev frameworks, libraries and best practices or anything related to tech in general!",
   location: "Download Resume",
-  
+
   email: "amaanbhati.tech",
   items: GridItems,
-  
 } as const;
-
