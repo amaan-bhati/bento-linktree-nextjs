@@ -130,7 +130,7 @@ const GridItems: GridItemInterface[] = [
     // icon: "twitter",
     // username: "Neeche dekho",
     // buttonTitle: "View Projects",
-    buttonLink: "https://www.amaanbhati.tech/projectspage",
+    buttonLink: "https://github.com/amaan-bhati?tab=repositories",
     // buttonSecondaryText: "279",
     color: "#1DA1F2",
     description:
