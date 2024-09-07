@@ -96,32 +96,32 @@ const GridItems: GridItemInterface[] = [
     // "Tech twitter is what keeps me updated with modern tech stacks and also keeps me entertained with technical memes and discussions.",
   },
 
-  {
-    layout: "1x2",
-    type: "social",
-    title: "Leetcode",
-    // icon: "twitter",
-    username: "@amaan-bhati",
-    // buttonTitle: "View Profile",
-    buttonLink: "https://leetcode.com/amaanbhati",
-    // buttonSecondaryText: "279",
-    color: "#1DA1F2",
-    // description:
-  },
+  // {
+  //   layout: "1x2",
+  //   type: "social",
+  //   title: "Leetcode",
+  //   icon: "leetcode",
+  //   username: "@amaan-bhati",
+  //   // buttonTitle: "View Profile",
+  //   buttonLink: "https://leetcode.com/amaanbhati",
+  //   // buttonSecondaryText: "279",
+  //   color: "grey",
+  //   // description:
+  // },
 
-  {
-    layout: "1x2",
-    type: "social",
-    title: "Youtube",
-    icon: "youtube",
-    // icon: "discord",
-    username: "@amaan-bhati",
-    // buttonTitle: "Subscribe",
-    buttonLink: "https://youtu.be/xvFZjo5PgG0?si=oroLylgt6dbhY8WQ",
-    // buttonSecondaryText: "44",
-    color: "red",
-    // description: "Keeps me connected with family and friends while we share memes and reels only to waste time in the name of relaxing ourselves.",
-  },
+  // {
+  //   layout: "1x2",
+  //   type: "social",
+  //   title: "Youtube",
+  //   icon: "youtube",
+  //   // icon: "discord",
+  //   username: "@amaan-bhati",
+  //   // buttonTitle: "Subscribe",
+  //   buttonLink: "https://youtu.be/xvFZjo5PgG0?si=oroLylgt6dbhY8WQ",
+  //   // buttonSecondaryText: "44",
+  //   color: "red",
+  //   // description: "Keeps me connected with family and friends while we share memes and reels only to waste time in the name of relaxing ourselves.",
+  // },
 
   {
     layout: "2x2",
@@ -157,13 +157,13 @@ const GridItems: GridItemInterface[] = [
     layout: "2x2",
     type: "social",
     title: "Spotify work mode playlist",
-    // icon: "twitter",
+    icon: "spotify",
     // username: "amaan",
     // buttonTitle: "Follow",
     buttonLink:
       " https://open.spotify.com/playlist/04DEjJ6oWgthgqYpFa9ULX?si=Vxw4f0-XRmCcuUpao1bNkQ&pi=EV3W6r_2RE6sW&nd=1&dlsi=65725a32417046df",
     // buttonSecondaryText: "279",
-    color: "#1DA1F2",
+    color: "#1DB954",
     description:
       "My very own Spotify playlist with a bunch of songs that I listen to while writing code to bring the best out of my productivity.  ",
     // username: "Elon Musk",
@@ -356,15 +356,15 @@ const GridItems: GridItemInterface[] = [
     ],
   },
 
-  {
-    layout: "2x2",
-    type: "social",
-    title: "Make sure you visit again",
+  // {
+  //   layout: "2x2",
+  //   type: "social",
+  //   title: "Make sure you visit again",
 
-    color: "#1DA1F2",
-    description:
-      "I designed and developed this site in two days, it is still in progress. Hence, make sure you visit again.",
-  },
+  //   color: "#1DA1F2",
+  //   description:
+  //     "I designed and developed this site in two days, it is still in progress. Hence, make sure you visit again.",
+  // },
 
 ];
 
