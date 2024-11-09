@@ -39,13 +39,13 @@ const LeftPanel = () => {
           <div className="flex items-center gap-3 mt-6 ">
             <a
               href={`https://drive.google.com/file/d/1rJNGaVu30-4Ts_DVbnx1KaGtwu6f2WeH/view?usp=sharing`}
-              className="flex items-center w-full gap-2 px-4 py-2 text-sm font-medium border rounded-md border-neutral-100 dark:border-neutral-800 "
+              className="flex items-center justify-center w-full gap-2 px-5 py-3 text-sm font-medium border-2 rounded-lg border-neutral-300 dark:border-neutral-700 transition duration-300 bg-white dark:bg-[#171717] hover:bg-neutral-100 dark:hover:bg-[#171717]"
             >
               {siteConfig.location}
             </a>
             <a
               href={`https://amaanbhati.tech`}
-              className="flex items-center w-full gap-2 px-4 py-2 text-sm font-medium border rounded-md border-neutral-200 dark:border-neutral-800 "
+              className="flex items-center justify-center w-full gap-2 px-5 py-3 text-sm font-medium border-2 rounded-lg border-neutral-300 dark:border-neutral-700 transition duration-300 bg-white dark:bg-[#171717] hover:bg-neutral-100 dark:hover:bg-[#171717]"
             >
               Visit Portfolio
             </a>
