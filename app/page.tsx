@@ -12,6 +12,9 @@ export default function Home() {
       <div className="container relative z-20 flex flex-col w-full h-full px-6 gap:6 xl:gap-10 xl:flex-row">
         {/* Left Panel */}
         <LeftPanel />
+        <div className="flex pb-6 xl:hidden">
+          <Footer />
+        </div>
         {/* Right Panel */}
         <RightPanel />
         {/* Footer for Mobile */}
