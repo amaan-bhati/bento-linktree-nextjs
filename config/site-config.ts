@@ -169,192 +169,192 @@ const GridItems: GridItemInterface[] = [
     // username: "Elon Musk",
   },
 
-  {
-    layout: "2x4",
-    type: "equipment",
-    title: "SKILLS/Languages",
-    image: "/8.jpg",
-    equipments: [
-      {
-        title: "HTML/CSS",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "Javascript",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "Typescript",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "C++",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "C",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "Python",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "SQL",
-        link: "github.com/amaan-bhati",
-      },
-    ],
-  },
+  // {
+  //   layout: "2x4",
+  //   type: "equipment",
+  //   title: "SKILLS/Languages",
+  //   image: "/8.jpg",
+  //   equipments: [
+  //     {
+  //       title: "HTML/CSS",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "Javascript",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "Typescript",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "C++",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "C",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "Python",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "SQL",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //   ],
+  // },
 
-  {
-    layout: "2x4",
-    type: "equipment",
-    title: "SKILLS/Libraries and Frameworks",
-    image: "/7.jpg",
-    equipments: [
-      {
-        title: "React.js",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "Next.js",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "Redux",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "Express.js",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "NextAuth",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "Threejs",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "Next Auth",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "NodeJS",
-        link: "github.com/amaan-bhati",
-      },
-    ],
-  },
+  // {
+  //   layout: "2x4",
+  //   type: "equipment",
+  //   title: "SKILLS/Libraries and Frameworks",
+  //   image: "/7.jpg",
+  //   equipments: [
+  //     {
+  //       title: "React.js",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "Next.js",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "Redux",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "Express.js",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "NextAuth",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "Threejs",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "Next Auth",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "NodeJS",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //   ],
+  // },
 
-  {
-    layout: "2x4",
-    type: "equipment",
-    title: "SKILLS/Styling Tools",
-    image: "/1.jpg",
-    equipments: [
-      {
-        title: "CSS",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "SCSS",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "TailwindCSS",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "Shadcn",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "Framer Motion",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "Material UI",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "Figma",
-        link: "github.com/amaan-bhati",
-      },
-    ],
-  },
+  // {
+  //   layout: "2x4",
+  //   type: "equipment",
+  //   title: "SKILLS/Styling Tools",
+  //   image: "/1.jpg",
+  //   equipments: [
+  //     {
+  //       title: "CSS",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "SCSS",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "TailwindCSS",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "Shadcn",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "Framer Motion",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "Material UI",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "Figma",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //   ],
+  // },
 
-  {
-    layout: "2x4",
-    type: "equipment",
-    title: "SKILLS/Development tools",
-    image: "/5.jpg",
-    equipments: [
-      {
-        title: "Visual Studio",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "VS Code",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "Wappalyzer",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "GIT/Github",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "Bash/Shell",
-        link: "github.com/amaan-bhati",
-      },
+  // {
+  //   layout: "2x4",
+  //   type: "equipment",
+  //   title: "SKILLS/Development tools",
+  //   image: "/5.jpg",
+  //   equipments: [
+  //     {
+  //       title: "Visual Studio",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "VS Code",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "Wappalyzer",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "GIT/Github",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "Bash/Shell",
+  //       link: "github.com/amaan-bhati",
+  //     },
      
-      {
-        title: "Docker",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "Vercel",
-        link: "github.com/amaan-bhati",
-      },
-    ],
-  },
+  //     {
+  //       title: "Docker",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "Vercel",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //   ],
+  // },
 
-  {
-    layout: "2x4",
-    type: "equipment",
-    title: "SKILLS/Database and other tools",
-    image: "/8.jpg",
-    equipments: [
-      {
-        title: "MongoDb",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "NeonDb",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "Supabase",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "Firebase",
-        link: "github.com/amaan-bhati",
-      },
-      {
-        title: "Postgress",
-        link: "github.com/amaan-bhati",
-      },
+  // {
+  //   layout: "2x4",
+  //   type: "equipment",
+  //   title: "SKILLS/Database and other tools",
+  //   image: "/8.jpg",
+  //   equipments: [
+  //     {
+  //       title: "MongoDb",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "NeonDb",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "Supabase",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "Firebase",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //     {
+  //       title: "Postgress",
+  //       link: "github.com/amaan-bhati",
+  //     },
      
-      {
-        title: "AWS S3",
-        link: "github.com/amaan-bhati",
-      },
-    ],
-  },
+  //     {
+  //       title: "AWS S3",
+  //       link: "github.com/amaan-bhati",
+  //     },
+  //   ],
+  // },
 
   // {
   //   layout: "2x2",
